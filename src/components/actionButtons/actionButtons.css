@@ -1,0 +1,29 @@
+.actionButtons {
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 8px;
+}
+
+.componentButtons {
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.componentButtons.yellow {
+  background-color: #fbbe3f;
+  border: 1px solid #d7a32d;
+}
+
+.componentButtons.red {
+  background-color: #f85955;
+  border: 1px solid #d74246;
+}
+
+.componentButtons.green {
+  background-color: #45cc4b;
+  border: 1px solid #40ad36;
+}
